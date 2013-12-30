@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+
+#dataWrapper{
+	border: 1px dashed #6A301E;
+    border-radius: 10px;
+    box-shadow: 6px 5px 8px 3px #E1D9C0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 10px;
+}
+
+#headerWrapper{
+	display: table;
+	width: 100%;
+	padding-top: 10px;
+}
+
+#logo{
+	display: table-cell;
+	width: 130px;
+}
+
+#nomeStruttura{
+	display: inline;
+	text-transform: uppercase;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gallery{
+	width: 450px;
+}
+
+.fotoWrapper{
+	width: 130px;
+	padding: 5px;
+	float: left;
+	background: white;
+	margin: 5px;
+}
+
+.clear{
+	clear: both;
+}
+
+.datiCameraWrapper{
+	display: table;
+	width: 90%;
+}
+
+.datiCameraWrapper .checkBox{
+	vertical-align: middle;
+	display: table-cell;
+	padding-right: 30px;
+    width: 50px;
+    text-align: center;
+}
+
+.datiCameraWrapper .datiCamera{
+	display: table-cell;
+	border: 1px dashed blue;
+	border-bottom-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    padding-left: 10px;
+}
+
+p .label{
+	font-size: 1.1em;
+	color: blue;
+}
+
+p .value{
+	float: left;
+}
+
+#datiStruttura{
+	display: inline-table;
+	padding-top: 10px;
+}
+
+#datiStruttura #datiContatto, #datiStruttura #datiIndirizzo{
+	display: table-cell;
+	width: 50%;
+}
+
+#camere{
+	width: 450px;
+	margin: auto;
+}

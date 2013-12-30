@@ -1,0 +1,132 @@
+.hotelsWrapper{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fieldSetHotel{
+	border: 1px dashed #6A301E;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 6px 5px 8px 3px #E1D9C0;
+	width: 550px;
+}
+
+.infoWrapper{
+	width: 100%;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	display: table-cell;
+	padding-right: 35px;
+}
+
+.nomeHotel{
+	margin-left: auto;
+	margin-right: auto;
+	display: table-cell;
+	vertical-align: middle;
+	text-transform: uppercase;
+	width: 275px;
+}
+
+.tableRow{
+	display: table-row;
+}
+
+.tableCell{
+	display: table-cell;
+}
+
+.room{
+	display: table;
+}
+
+.room label{
+	padding-bottom: 15px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.room input{
+	border: 0px;
+	background: white;
+}
+
+.room textarea{
+	border: 0px;
+	background: white;
+	width: 352px;
+	min-height: 100px;;
+}
+
+.roomWrapper .ui-widget-header{
+	background: #ff8300; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ff8300 0%, #f9d781 93%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ff8300), color-stop(93%,#f9d781)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #ff8300 0%,#f9d781 93%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #ff8300 0%,#f9d781 93%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #ff8300 0%,#f9d781 93%); /* IE10+ */
+	background: linear-gradient(to right,  #ff8300 0%,#f9d781 93%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8300', endColorstr='#f9d781',GradientType=1 ); /* IE6-9 */
+}
+
+.photoGallery{
+	text-align: center;
+	width: 160px;
+}
+
+#photoGallery ul{
+	width: 500px;
+	height: 200px;
+}
+
+.stelle{
+    position: relative;
+    right: -20px;
+    top: -100px;
+    width: 82px;
+}
+
+.datiIndirizzo, .datiContatto, .datiFiscaliWrapper{
+	 display: table-cell;
+}
+
+.infoHeader{
+	display: table;
+}
+
+.datiWrapper{
+	display: table;
+	width: 100%;
+}
+
+.dataLabel{
+	font-weight: 300;
+	color: #21557C;
+	float: left;
+}
+
+.datiWrapper p{
+	line-height: 1em;
+}
+
+.gotToHotelPage:HOVER{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+#tabs{
+	box-shadow: 10px 10px 5px #888888;
+	flaot: left;
+	width: 700px;
+	margin: auto;
+}
+
+#tab-contents{
+	height: 974px;
+}

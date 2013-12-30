@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+/*span.fileinputs {
+	position: relative;
+}
+
+span.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+span.fileinputs input.fileInput {
+	position: relative;
+	text-align: right;
+	-moz-opacity: 0;
+	filter: alpha(opacity :   0);
+	opacity: 0;
+	z-index: 2;
+}*/
+
+.myfileupload-buttonbar input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	border: solid transparent;
+	border-width: 0 0 100px 200px;
+	opacity: 0.0;
+	filter: alpha(opacity = 0);
+	-o-transform: translate(250px, -50px) scale(1);
+	-moz-transform: translate(-300px, 0) scale(4);
+	direction: ltr;
+	cursor: pointer;
+}
+
+.myui-button {
+	position: relative;
+	cursor: pointer;
+	text-align: center;
+	overflow: visible;
+	overflow: hidden;
+}
+
+form button.my-btn{
+	margin-top: 10px;
+	width: 127px;
+}
+
+.myfileupload-buttonbar p{
+	float:left;
+}
+
+#icnSearch{
+	float: right;
+	margin-top: 6px;
+	margin-left: 6px;
+}
+

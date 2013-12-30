@@ -1,0 +1,100 @@
+<script type="text/javascript"> 
+$(function() {
+	$( "#tabs" ).tabs({
+		beforeLoad: function( event, ui ) {
+			ui.jqXHR.error(function() {
+				ui.panel.html(
+				"Couldn't load this tab. We'll try to fix this as soon as possible. " +
+				"If this wouldn't be a demo." );
+			});
+		}
+	});
+});
+</script>
+
+<div class="hotelsWrapper">
+	<fieldset class="fieldSetHotel">
+		<legend>Nome Hotel</legend>
+		<div class="infoWrapper">
+			<div class="logo">&nbsp;</div>
+			<div class="nomeHotel">
+				<h1>Nome hotel</h1>
+				<div class="stelle">
+					<span>
+						<img src="public/img/starHotelGreen.png" />
+					</span>
+				</div>
+				<div class="datiFiscaliWrapper">
+					<div class="codFisc">
+						<h2>codice fiscale</h2>
+					</div>
+					
+					<div class="pIva">
+						<h2> Partita iva </h2> 
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="roomWrapper">
+	 		<div id="tabs" class="tabs-bottom">
+			    <ul>
+			        <li><a href="#tabs-1">Descrizione camera</a></li>
+			        <li><a href="#tabs-2">Foto Gallery</a></li>
+			        <li><a href="#tabs-3">Prenota</a></li>
+			    </ul>
+			    <div class="tabs-spacer"></div>
+			    <div id="tabs-1">
+			       <p> 
+				       <span class="room">
+					       	<span class="postiLetto tableRow">
+				 				<label class="tableCell">Posti letto: </label>
+				 				<input class="tableCell" type="text" value="3" disabled="disabled" size="3"/>
+				 			</span>
+				 			<span class="prezzoCamera tableRow">
+				 				<label class="tableCell">Prezzo: </label>
+				 				<input class="tableCell" type="text" value="30€" disabled="disabled" size="3"/>
+				 			</span>
+				 			<span class="descRoom tableRow">
+				 				<label class="tableCell">Descrizione:</label>
+				 				<textarea class="tableCell" rows="" cols="" disabled="disabled">Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc.</textarea>
+				 			</span>
+				 		</span> 
+			 		</p>
+			    </div>
+			    <div id="tabs-2">
+			        <p>
+			        	<div id="main">
+							<div id="page-wrap">
+									<!-- AnythingSlider #1 -->
+									<ul id="slider1">
+										<li><img src="demos/images/slide-civil-1.jpg" alt=""></li>
+										<li><img src="demos/images/slide-env-1.jpg" alt=""></li>
+										<li><img src="demos/images/slide-civil-2.jpg" alt=""></li>
+										<li><img src="demos/images/slide-env-2.jpg" alt=""></li>
+									</ul>  
+									<!-- END AnythingSlider #1 -->
+							</div>
+						</div>
+					</p>
+			    </div>
+			    <div id="tabs-3">
+			        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+			        <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+			    </div>
+			</div>
+		</div>
+	</fieldset>
+</div>
+<div id="loadScript">
+	<script type="text/javascript">
+		$(function() {
+			$("#tabs").tabs();
+			// fix the classes
+			$(".tabs-bottom .ui-tabs-nav, .tabs-bottom .ui-tabs-nav > *").removeClass(
+					"ui-corner-all ui-corner-top").addClass("ui-corner-bottom");
+			// move the nav to the bottom
+			$(".tabs-bottom .ui-tabs-nav").appendTo(".tabs-bottom");
+		});
+	</script>
+
+</div>

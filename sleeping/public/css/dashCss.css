@@ -1,0 +1,206 @@
+@CHARSET "UTF-8";
+
+#dashboard {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	min-height: 945px;
+}
+
+.dataWrapper{
+	margin: 10px;
+	clear: both;
+}
+
+.fieldsetWrapper{
+	height: 220px;
+}
+
+#photoWrapper{
+	width: 315px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#datiGenerali{
+	width: 315px;
+}
+
+#residenza{
+	width: 315px;
+	height: 204px;
+}
+
+.editBtn .my-btn{
+	width: 90px;
+}
+
+/* DATI CONTATTO */
+
+#contatto{
+	width: 315px;
+	height: 204px;
+}
+
+#contatto .cellLabel{
+	width: 78px;
+}
+
+#domicilio{
+	width: 315px;
+	height: 204px;
+}
+
+.dashRight{
+	float: right;
+}
+
+.dashLeft{
+	float: left;
+}
+
+
+/*
+#dashData,#dashDataAdress,#dashDataContacts {
+	display: table;
+}*/
+
+#dashboard fieldset {
+	margin-top: 15px;
+	padding: 15px;
+	padding-bottom: 0;
+	border: 1px #6E331E dashed;
+	width: 280px;
+}
+
+fieldset legend {
+	border: 0 #6E331E solid;
+	margin-left: 1em;
+	padding: 0.2em 0.8em;
+	color: #658A46;
+}
+
+.rowTable {
+	display: table-row;
+	padding-bottom: 5px;
+}
+
+.rowTable .cellLabel {
+	display: table-cell;
+	width: 129px;
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+.rowTable input{
+	width: 150px;
+}
+
+input {
+	width: 14em;
+	height: 1.167em;
+	border: medium none;
+	border-radius: 0px;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 0.92em Arial, Helvetica, sans-serif;
+	color: #5D781D;
+	margin: 0px;
+}
+
+#dashboard #dashPhoto #photoWrapper {
+	position: relative;
+	background: #fff;
+	width: 200px;
+	padding: 7px;
+	margin: 10px;
+	text-align: center;
+	-moz-box-shadow: 1px 1px 3px #222;
+	-webkit-box-shadow: 1px 1px 3px #222;
+	box-shadow: 1px 1px 3px #222;
+}
+
+#dashData #conf-password{
+	display: none;
+}
+
+.lastLine{
+	display: table;
+	padding-top: 10px;
+}
+
+.labelSaveData{
+	color: red;
+	display: table-cell;
+	width: 158px;
+	padding-right: 40px;
+}
+
+.lastLine .cellBtn {
+	display: table-cell;
+	width: 82px;
+}
+
+.lastLine .cellBtn .saveBtn{
+	display: none;
+}
+
+.lastLine .labelSaveData .lineHidden{
+	display: none;
+}
+
+#dashData #ricaricaCredito{
+	display: none;
+	text-align: right;
+}
+
+#dashPhoto{
+	border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 12px 0;
+    margin: auto;
+    padding-bottom: 59px;
+    width: 225px;
+}
+
+#dashPhoto #showimg{
+	border: 1px solid #eee;
+	padding: 10px;
+	border-radius: 10px 10px 0 0;
+	min-height: 200px;
+	margin: auto;
+}
+
+#btnDashboard{
+	width: 90px;
+	margin: auto;
+}
+
+#fileFotoDashboard{
+	height: 30px;
+    width: 174px;
+}
+
+/* nascondere la riga del persorso del file */
+#uploadform #myfile{
+	visibility: hidden;
+	position: absolute;
+}
+
+#uploadform #loadFile{
+	margin: 20px auto;
+	width: 90px;
+}
+
+
+#fotoName{
+	font-family: 'Shadows Into Light Two',cursive;
+    font-size: 20px;
+    font-weight: 400;
+    height: 18px;
+    position: relative;
+    top: 24px;
+}
+
+
+

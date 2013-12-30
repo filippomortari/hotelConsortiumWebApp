@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+
+.hotelWrapper{
+	border: 1px dashed #6A301E;
+    border-radius: 5px;
+    box-shadow: 6px 4px 13px 8px #E1D9C0;
+    margin-top: 30px;
+    text-align: center;
+    background: rgba(228, 211, 183, 0.2);
+}
+
+.hotelWrapper .nomeHotelHome{
+	text-align: center;
+}
+
+.hotelWrapper .descrizioneHotelHome{
+	text-align: justify;
+}

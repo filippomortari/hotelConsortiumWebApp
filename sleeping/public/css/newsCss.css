@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+#sidebar .notizia{
+	border: 1px dashed #6A301E;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 6px 4px 13px 8px #E1D9C0;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#sidebar .notizia .titolo{
+	height: auto;
+    padding-bottom: 10px;
+    padding-left: 0;
+    text-align: center;
+}

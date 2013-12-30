@@ -1,0 +1,38 @@
+<div id="roomRecord">
+	<div id="form-signup-div">
+		<form id="addRoom-form" onload="checkData()" class="form-signup">
+			<fieldset>
+				<span>
+					<label for="hotel-name">Posti: </label> 
+					<input class="input-area" type="text" id="posti" name="posti" /> 
+				</span>
+				<span>
+					<label for="hotel-indirizzo">Descrizione: </label>
+					<textarea class="input-area" type="text" id="descrizione" name="descrizione" />
+				</span>
+				<span>
+					<label for="hotel-numCiv">Prezzo: </label> 
+					<input class="input-area" type="text" id="prezzo" name="value" /> 
+				</span>
+				<span>
+					<label for="hotel-city">Valuta: </label>
+					<input class="input-area" type="text" id="valuta" name="currency" />
+				</span>
+				<p class="chiudi" id="chiudiPopUp">X</p>
+				<span class="form-button">
+					<p id="addRoom" class="my-btn">invia i dati</p>
+				</span>
+			</fieldset>
+		</form>
+	</div>
+	<div>
+		<script type="text/javascript" >
+
+			$("#chiudiPopUp").click( function (){
+				chiudi($("#roomRecord"));
+			});
+		</script>
+	
+	</div>
+</div>
+

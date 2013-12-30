@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+#posti, #descrizione, #prezzo, #valuta{
+	border: 1px solid black;
+	width: 90px;
+}
+
+#plusCamera, #addRoom{
+	margin: 10px;
+	width: 115px;
+	text-align: center;
+}
+
+#form-signup-div .form-button{
+	width: 100%;
+	text-align: center;
+}
+
+#form-signup-div fieldset{
+	box-shadow: 0 0 0 0;
+}

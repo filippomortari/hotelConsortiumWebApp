@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>jQuery UI Sortable - Portlets</title>
+
+
+<!--  <link rel="stylesheet" href="../../themes/base/jquery.ui.all.css">
+<link rel="stylesheet" href="../demos.css">
+<link rel="stylesheet"
+	href="http://localhost/sleeping/ReverseProject/src/public/css/jquery-sortable.css" /> -->
+
+<link rel="stylesheet"
+	href="http://localhost/sleeping/ReverseProject/src/public/css/resetStyle.css" />
+<link rel="stylesheet"
+	href="http://localhost/sleeping/ReverseProject/src/public/css/style.css" />
+<link rel="stylesheet"
+	href="http://localhost/sleeping/ReverseProject/src/inettus/inettuts.css" />
+<link rel="stylesheet"
+	href="http://localhost/sleeping/ReverseProject/src/inettus/inettuts.js.css" />
+<script src="../../jquery-1.8.0.js"></script>
+<script src="../../ui/jquery.ui.core.js"></script>
+<script src="../../ui/jquery.ui.widget.js"></script>
+<script src="../../ui/jquery.ui.mouse.js"></script>
+<script src="../../ui/jquery.ui.sortable.js"></script>
+<script src="../../ui/jquery.ui.selectable.js"></script>
+<script src="../../ui/jquery.ui.draggable.js"></script>
+<script
+	src="http://localhost/sleeping/ReverseProject/src/public/js/jquerySortable.js"></script>
+<script
+	src="http://localhost/sleeping/ReverseProject/src/public/js/gallery.js"></script>
+
+
+<!-- Effects -->
+<script type="text/javascript"
+	src="http://localhost/sleeping/ReverseProject/libs/js/jquery-ui/jquery.effects.core.js"></script>
+<script type="text/javascript"
+	src="http://localhost/sleeping/ReverseProject/libs/js/jquery-ui/jquery.effects.bounce.js"></script>
+<script type="text/javascript"
+	src="http://localhost/sleeping/ReverseProject/libs/js/jquery-ui/jquery.effects.explode.js"></script>
+<script type="text/javascript"
+	src="http://localhost/sleeping/ReverseProject/libs/js/jquery-ui/jquery.effects.blind.js"></script>
+<script type="text/javascript"
+	src="http://localhost/sleeping/ReverseProject/libs/js/jquery-ui/jquery.effects.clip.js"></script>
+<!-- Widget -->
+<script type="text/javascript"
+	src="http://localhost/sleeping/ReverseProject/libs/js/jquery-ui/jquery.ui.accordion.js"></script>
+
+</head>
+<body>
+	<div id="head">
+		<h1>iNettuts</h1>
+	</div>
+	<div id="content">
+		<div id="columns">
+			<ul id="column1" class="column">
+				<li class="widget color-green" id="intro">
+					<div class="widget-head">
+						<h3>Introduction Widget</h3>
+					</div>
+					<div class="widget-content">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+							Aliquam magna sem, fringilla in, commodo a, rutrum ut, massa.
+							Donec id nibh eu dui auctor tempor. Morbi laoreet eleifend dolor.
+							Suspendisse pede odio, accumsan vitae, auctor non, suscipit at,
+							ipsum. Cras varius sapien vel lectus.</p>
+					</div>
+				</li>
+				<li class="widget color-red">
+					<div class="widget-head">
+						<h3>Widget title</h3>
+					</div>
+					<div class="widget-content">
+						<div id="gallery">
+							<div class="overlay"></div>
+							<div id="photo_screen">
+								<img />
+							</div>
+							<div id="gallery-background">
+								<div id="big-photo">
+									<img
+										src="http://localhost/sleeping/ReverseProject/src/public/img/gransasso.jpg"
+										alt="" class="output" />
+								</div>
+							</div>
+							<div id="gallery-slider">
+								<div class="thumb-slider-arrow" id="arrow-left">
+									<img class="slider-arrow"
+										src="http://localhost/sleeping/ReverseProject/src/public/img/arrow-left.png"
+										id="slider-arrow-up" />
+								</div>
+								<div id="photos-wrap">
+									<div id="photos">
+										<div class="thumb-slider">
+											<img class="img-thumb"
+												src="http://localhost/sleeping/ReverseProject/src/public/img/il baco.png" />
+										</div>
+										<div class="thumb-slider">
+											<img class="img-thumb"
+												src="http://localhost/sleeping/ReverseProject/src/public/img/vecchia spota.png" />
+										</div>
+										<div class="thumb-slider">
+											<img class="img-thumb"
+												src="http://localhost/sleeping/ReverseProject/src/public/img/maiella.jpg" />
+										</div>
+									</div>
+								</div>
+								<div class="thumb-slider-arrow" id="arrow-right">
+									<img class="slider-arrow"
+										src="http://localhost/sleeping/ReverseProject/src/public/img/arrow-right.png" />
+								</div>
+							</div>
+							<!-- end -->
+						</div>
+					</div>
+				</li>
+			</ul>
+
+			<ul id="column2" class="column">
+				<li class="widget color-blue">
+					<div class="widget-head">
+						<h3>Widget title</h3>
+					</div>
+					<div class="widget-content">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+							Aliquam magna sem, fringilla in, commodo a, rutrum ut, massa.
+							Donec id nibh eu dui auctor tempor. Morbi laoreet eleifend dolor.
+							Suspendisse pede odio, accumsan vitae, auctor non, suscipit at,
+							ipsum. Cras varius sapien vel lectus.</p>
+					</div>
+				</li>
+				<li class="widget color-yellow">
+					<div class="widget-head">
+						<h3>Widget title</h3>
+					</div>
+					<div class="widget-content">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+							Aliquam magna sem, fringilla in, commodo a, rutrum ut, massa.
+							Donec id nibh eu dui auctor tempor. Morbi laoreet eleifend dolor.
+							Suspendisse pede odio, accumsan vitae, auctor non, suscipit at,
+							ipsum. Cras varius sapien vel lectus.</p>
+					</div>
+				</li>
+			</ul>
+
+			<ul id="column3" class="column">
+				<li class="widget color-orange">
+					<div class="widget-head">
+						<h3>Widget title</h3>
+					</div>
+					<div class="widget-content">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+							Aliquam magna sem, fringilla in, commodo a, rutrum ut, massa.
+							Donec id nibh eu dui auctor tempor. Morbi laoreet eleifend dolor.
+							Suspendisse pede odio, accumsan vitae, auctor non, suscipit at,
+							ipsum. Cras varius sapien vel lectus.</p>
+					</div>
+				</li>
+				<li class="widget color-white">
+					<div class="widget-head">
+						<h3>Widget title</h3>
+					</div>
+					<div class="widget-content">
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+							Aliquam magna sem, fringilla in, commodo a, rutrum ut, massa.
+							Donec id nibh eu dui auctor tempor. Morbi laoreet eleifend dolor.
+							Suspendisse pede odio, accumsan vitae, auctor non, suscipit at,
+							ipsum. Cras varius sapien vel lectus.</p>
+					</div>
+				</li>
+
+			</ul>
+
+		</div>
+	</div>
+
+	<script type="text/javascript"
+		src="http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js"></script>
+	<script type="text/javascript"
+		src="http://localhost/sleeping/ReverseProject/src/inettus/jquery-ui-personalized-1.6rc2.min.js"></script>
+	<script type="text/javascript"
+		src="http://localhost/sleeping/ReverseProject/src/inettus/inettuts.js"></script>
+
+	<div class="demo" style="display: none;">
+		<div class="column">
+			<div class="portlet">
+				<div class="portlet-header">Foto</div>
+				<div class="portlet-content">
+					<div id="gallery">
+						<div class="overlay"></div>
+						<div id="photo_screen">
+							<img />
+						</div>
+						<div id="gallery-slider">
+							<div class="thumb-slider-title">
+								<img class="slider-arrow"
+									src="http://localhost/sleeping/ReverseProject/src/public/img/arrow-up.png"
+									id="slider-arrow-up" />
+							</div>
+							<div id="photos-wrap">
+								<div id="photos">
+									<div class="thumb-slider">
+										<img class="img-thumb"
+											src="http://localhost/sleeping/ReverseProject/src/public/img/il baco.png" />
+									</div>
+									<div class="thumb-slider">
+										<img class="img-thumb"
+											src="http://localhost/sleeping/ReverseProject/src/public/img/vecchia spota.png" />
+									</div>
+									<div class="thumb-slider">
+										<img class="img-thumb"
+											src="http://localhost/sleeping/ReverseProject/src/public/img/maiella.jpg" />
+									</div>
+								</div>
+							</div>
+							<div class="thumb-slider-title">
+								<img class="slider-arrow"
+									src="http://localhost/sleeping/ReverseProject/src/public/img/arrow-down.png" />
+							</div>
+						</div>
+						<div id="gallery-background">
+							<div id="big-photo">
+								<img
+									src="http://localhost/sleeping/ReverseProject/src/public/img/gransasso.jpg"
+									alt="" width="600" height="340" class="output" />
+							</div>
+						</div>
+						<!-- end -->
+					</div>
+				</div>
+			</div>
+
+			<div class="portlet">
+				<div class="portlet-header">News</div>
+				<div class="portlet-content">Lorem ipsum dolor sit amet,
+					consectetuer adipiscing elit</div>
+			</div>
+		</div>
+
+		<div class="column">
+
+			<div class="portlet">
+				<div class="portlet-header">Attivit&agrave;</div>
+				<div class="portlet-content">Lorem ipsum dolor sit amet,
+					consectetuer adipiscing elit</div>
+			</div>
+
+		</div>
+
+		<div class="column">
+
+			<div class="portlet">
+				<div class="portlet-header">Links</div>
+				<div class="portlet-content">Lorem ipsum dolor sit amet,
+					consectetuer adipiscing elit</div>
+			</div>
+
+			<div class="portlet">
+				<div class="portlet-header">Images</div>
+				<div class="portlet-content">Lorem ipsum dolor sit amet,
+					consectetuer adipiscing elit</div>
+			</div>
+
+		</div>
+
+		<div class="column"></div>
+
+	</div>
+	<!-- End demo -->
+	<!-- End demo-description -->
+
+</body>
+</html>

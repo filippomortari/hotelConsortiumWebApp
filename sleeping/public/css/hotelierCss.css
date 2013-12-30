@@ -1,0 +1,77 @@
+#hoteliers_login {
+	display: none;
+	/*display: table;*/
+	z-index: +300;
+	position: absolute;
+	left: 30%;
+	bottom: 20%;
+	padding: 0.84em;
+	/*bordi*/
+	border: 1px solid #1a1a1a;
+	-moz-border-radius: 0.84em;
+	-webkit-border-radius: 0.84em;
+	border-radius: 0.84em;
+	font-size: 0.95em;
+	/*grandezza div*/
+	width: 50em;
+	height: 6.67em;
+	background: #FBF1D6;
+	color: rgb(93, 120, 29);
+}
+
+#hoteliers_login #div_form {
+	display: table-cell;
+	text-align: center;
+    vertical-align: middle;
+    width: 50%;
+    border-right: 2px solid rgb(247, 129, 29);
+	/*float: left;*/
+	/*widht: 75%;*/
+}
+
+#hoteliers_login #div-sigup {
+	/*float: right;
+	width: 50%;
+	height: 100%;
+	font-size: 2.0em;
+	text-align: center;
+	vertical-align: 50%;*/
+	display: table-cell;
+	text-align: center;
+    vertical-align: middle;
+    width: 50%;
+}
+
+#hoteliers_login #hoteliers_signup {
+	
+}
+/*
+#hoteliers_login p {
+	text-align: left;
+}*/
+/*
+#hoteliers_login .vertical-line {
+	float: left;
+	height: 100%;
+	margin-left: 30px;
+	border-right: 
+}*/
+
+#hoteliers_login .chiudi {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+#footer .my-btn{
+	width: auto;
+	background-color: green;
+	color: white;
+	padding: 0.16em 0.32em;
+	display: inline-block;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 2em;
+	cursor: pointer;
+}

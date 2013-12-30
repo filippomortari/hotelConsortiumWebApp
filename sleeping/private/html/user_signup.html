@@ -1,0 +1,73 @@
+<div id="form-user-div" onload="checkData()">
+	<form id="form-user-signup" class="form-signup">
+		<fieldset>
+			<div role="tablist"
+				class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons"
+				id="accordion">
+				<h3 tabindex="0" aria-selected="true" aria-expanded="true"
+					role="tab"
+					class="ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top">
+					<span class="ui-icon ui-icon-triangle-1-s"></span><a tabindex="-1"
+						href="#">Dati genarali</a>
+				</h3>
+				<div role="tabpanel" style="height: 105px;"
+					class="div-header ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active">
+					<span> <label for="user-name">Nome</label> <input
+						id="user-name" class="my-input" name="nome" />
+					</span> <span> <label for="user-surname">Cognome</label> <input
+						id="user-surname" name="cognome" />
+					</span> 
+					<span> 
+						<label for="user-born-data">Data di nascita</label>
+						
+						<input id="user-born-day" name="giornoNascita" size="2" />
+						
+						<input id="user-born-month" name="meseNascita" size="2" />
+						
+						<input id="user-born-year" name="annoNascita" size="4" />
+					</span> 
+					<span> <label for="user-born-city">Luogo di nascita</label>
+						<input id="user-born-city" name="luogoNascita" />
+					</span> <span> <label for="user-born-prov">Provincia di
+							nascita</label> <input id="user-born-prov" name="provNascita" size="2" />
+					</span> <span> <label for="user-codFisc">Codice fiscale</label> <input
+						id="user-codFisc" name="codFisc" />
+					</span> <span> <label for="user-res-city">Via di residenza</label>
+						<input id="user-res-city" name="luogoResidenza" />
+					</span> <span> <label for="user-res-comune">Comune di
+							residenza</label> <input id="user-res-comune" name="comuneResidenza" />
+					</span> <span> <label for="user-res-prov">Provincia di
+							residenza</label> <input id="user-res-prov" name="provResidenza" size="2"/>
+					</span>
+				</div>
+				<h3 tabindex="0" aria-selected="true" aria-expanded="true"
+					role="tab"
+					class="ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top">
+					<span class="ui-icon ui-icon-triangle-1-s"></span><a tabindex="-1"
+						href="#">Contatti</a>
+				</h3>
+				<div role="tabpanel" style="height: 105px;"
+					class="div-header ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active">
+					<span> <label for="user-email">Email</label> <input
+						id="user-email" name="email" />
+					</span> <span> <label for="user-email1">Conferma Email</label> <input
+						id="user-email1" />
+					</span> <span> <label for="username">UserName</label> <input
+						id="username" name="username" />
+					</span> <span> <label for="pwd">Password</label> <input
+						type="password" id="pwd" name="password" />
+					</span>
+				</div>
+			</div>
+			<span id="opt-field"></span>
+			<div class="form-button">
+				<p class="my-btn" id="form-user-btn">invia i dati</p>
+			</div>
+		</fieldset>
+	</form>
+</div>
+
+<div id="scriptWrapper">
+	<script type="text/javascript" src="public/js/accordionEffect.js"></script>
+	<script type="text/javascript" src="public/js/signup.js"></script>
+</div>

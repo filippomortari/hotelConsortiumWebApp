@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+#menuBar{
+	display: table;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.row-cell{
+	display: table-cell;
+	width: 45%; 
+}
+
+.whiteSpace{
+	width: 10%;
+}
+
+#photoWrapper{
+	width: 315px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#dashboard #dashPhoto #photoWrapper {
+	position: relative;
+	background: #fff;
+	width: 200px;
+	padding: 7px;
+	margin: 10px;
+	text-align: center;
+	-moz-box-shadow: 1px 1px 3px #222;
+	-webkit-box-shadow: 1px 1px 3px #222;
+	box-shadow: 1px 1px 3px #222;
+}
+
+#dashData #conf-password{
+	display: none;
+}
+
+.lastLine .cellBtn .saveBtn{
+	display: none;
+}
+
+.lastLine .labelSaveData .lineHidden{
+	display: none;
+}
+
+#dashData #ricaricaCredito{
+	display: none;
+	text-align: right;
+}
+
+
+#uploadLogoform #myfile {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+#uploadLogoform #loadFile {
+    margin: 20px auto;
+    width: 90px;
+}
